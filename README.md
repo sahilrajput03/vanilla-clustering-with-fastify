@@ -4,8 +4,10 @@ Source of app code: https://gist.github.com/thearegee/3eea038b9f0c5e94de73f3c348
 ## Load test commands:
 
 ```
+# Make 1L requests, 20k concurrency.
 ab -n 100000 -c 20000 http://localhost:8123/
 
+# Make 10k each from 10 users (i.e., 10k concurrency, total of 1L requests).
 artillery quick --count 10 --num 10000 http://localhost:8123/
 ```
 
