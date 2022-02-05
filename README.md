@@ -17,9 +17,7 @@ visit: https://www.npmtrends.com/ab-vs-artillery-vs-autocannon-vs-loadtest-vs-wr
 
 ---
 
-- **Fixing ab's eror of too many files open**
-
-Max what i can set is `ulimit -n 100000` i.e., a maximum of 1 lakhs open file descriptions
+- **Fixing ab's eror of too many files open**: Max what i can set is `ulimit -n 100000` i.e., a maximum of 1 lakhs open file descriptions
 limit can be set. FYI: YOu can see the help for ulimit @ ```ulimit
 --help```.
 
