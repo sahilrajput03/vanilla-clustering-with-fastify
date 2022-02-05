@@ -1,7 +1,7 @@
 Source of app code: https://gist.github.com/thearegee/3eea038b9f0c5e94de73f3c3482fa732
 
 
-## load test commands:
+## Load test commands:
 
 ```
 ab -n 100000 -c 20000 http://localhost:8123/
