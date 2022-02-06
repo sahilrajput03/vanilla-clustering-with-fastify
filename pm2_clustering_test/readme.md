@@ -1,5 +1,8 @@
 # Testing
 
+Command to auto-creat processes(clusters) as many cores the system has:
+`pm2 start app.js -i max`.
+
 Source: https://github.com/karianpour/pm2_clustering_test
 
 ```bash
