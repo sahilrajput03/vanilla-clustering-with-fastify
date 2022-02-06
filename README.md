@@ -3,6 +3,9 @@ Source of app code: https://gist.github.com/thearegee/3eea038b9f0c5e94de73f3c348
 Documentation of `cluster` module form nodejs documentation:
 https://nodejs.org/api/cluster.html#clusterismaster.
 
+fastifyjs uses `autocannon` to benchmark and autocannon is actually
+really good in benchmarking though. Source: https://github.com/fastify/fastify#benchmarks
+
 Amazing, Genuine article about load testing *IMO: https://dev.to/ku6ryo/benchmarking-next-js-on-fastify-custom-server-mg4
 
 Another nice article for using pm2: https://medium.com/@tzilist/clustering-node-js-with-pm2-with-benchmarking-e3a7daf792ba
