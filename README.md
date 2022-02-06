@@ -1,5 +1,8 @@
 Source of app code: https://gist.github.com/thearegee/3eea038b9f0c5e94de73f3c3482fa732
 
+Documentation of `cluster` module form nodejs documentation:
+https://nodejs.org/api/cluster.html#clusterismaster.
+
 Amazing, Genuine article about load testing *IMO: https://dev.to/ku6ryo/benchmarking-next-js-on-fastify-custom-server-mg4
 
 Another nice article for using pm2: https://medium.com/@tzilist/clustering-node-js-with-pm2-with-benchmarking-e3a7daf792ba
