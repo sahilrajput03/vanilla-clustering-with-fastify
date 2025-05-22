@@ -20,8 +20,8 @@ Another fork I made from a benchmarking repo for pm2 for clustertesting: https:/
 #       seconds. It then reports various metrics such as: Requests per
 #       second, Latency, Throughput, Errors and timeouts
 autocannon -c 15000 -d 5 localhost:8123
-# Output: So it takes around 13 seconds to complete and total of around
-# ✅115k requests.
+# Output: ✅ So it takes around 13 seconds to complete and total of around
+# 	115k requests.
 
 # Make 1L requests, 20k concurrency.
 ab -n 100000 -c 20000 http://localhost:8123/
